@@ -1,0 +1,2 @@
+Welcome to read.txt file
+Data appended
