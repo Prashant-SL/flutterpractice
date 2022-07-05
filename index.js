@@ -5,4 +5,9 @@ fs.writeFileSync("read.txt", "Welcome to read.txt file");
 
 // appending data
 fs.appendFileSync("read.txt", "\nData appended");
-// fs.writeFileSync("read.txt", "Added Data");
+
+const org_data = fs.readFileSync("read.txt").toString();
+// console.log(org_data);
+
+// To rename the file
+fs.renameSync("read.txt", "readwrite.txt");
